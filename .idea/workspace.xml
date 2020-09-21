@@ -2,33 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96d3ba38-909c-4498-bfe7-7b48e4a8984e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/snippets/back/api_view_class_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/back/api_view_function_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/back/form_serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/back/generic_class_base_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/back/generic_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/back/mdol_base_serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/back/mixin_generic_apiview_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/back/update_generic_class_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/back/viewset_specific_action_urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/migrations/0002_auto_20200918_1757.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/snippets/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/drf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/drf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0002_auto_20200921_1754.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/migrations/0002_user_is_staff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usercenter/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0002_auto_20200914_1526.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20200917_1547.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drf/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/drf/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/drf/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/drf/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/migrations/0002_auto_20200918_1757.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../pythonSites/drf-go-admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hellodjango" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -135,7 +127,8 @@
       <workItem from="1600253582334" duration="2599000" />
       <workItem from="1600396773374" duration="175000" />
       <workItem from="1600420578411" duration="8314000" />
-      <workItem from="1600668983474" duration="3151000" />
+      <workItem from="1600668983474" duration="3299000" />
+      <workItem from="1600677278077" duration="6608000" />
     </task>
     <servers />
   </component>
@@ -150,26 +143,26 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600253922981" />
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600481625693">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1600676743059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600481625693" />
-    <state width="1877" height="216" key="GridCell.Tab.0.bottom" timestamp="1600674106854">
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600676743059" />
+    <state width="1877" height="216" key="GridCell.Tab.0.bottom" timestamp="1600684939033">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600674106854" />
-    <state width="1877" height="216" key="GridCell.Tab.0.center" timestamp="1600674106854">
+    <state width="1877" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600684939033" />
+    <state width="1877" height="216" key="GridCell.Tab.0.center" timestamp="1600684939033">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600674106854" />
-    <state width="1877" height="216" key="GridCell.Tab.0.left" timestamp="1600674106854">
+    <state width="1877" height="216" key="GridCell.Tab.0.center/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600684939033" />
+    <state width="1877" height="216" key="GridCell.Tab.0.left" timestamp="1600684939032">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600674106854" />
-    <state width="1877" height="216" key="GridCell.Tab.0.right" timestamp="1600674106854">
+    <state width="1877" height="216" key="GridCell.Tab.0.left/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600684939032" />
+    <state width="1877" height="216" key="GridCell.Tab.0.right" timestamp="1600684939033">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600674106854" />
+    <state width="1877" height="216" key="GridCell.Tab.0.right/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600684939033" />
     <state x="461" y="167" key="SettingsEditor" timestamp="1600397198469">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -182,5 +175,13 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600420485942" />
+    <state x="636" y="258" width="647" height="534" key="find.popup" timestamp="1600679024809">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="258" width="647" height="534" key="find.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600679024809" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1600679035817">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050@0.0.1920.1050" timestamp="1600679035817" />
   </component>
 </project>

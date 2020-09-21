@@ -37,7 +37,8 @@ INSTALLED_APPS = [
 	'django.contrib.staticfiles',
 	'rest_framework',
 	'django_filters',
-	'snippets.apps.SnippetsConfig',
+	'corsheaders',
+	'usercenter.apps.UsercenterConfig',
 	'blog',
 ]
 
@@ -119,6 +120,9 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+AUTH_USER_MODEL = "usercenter.User"
 
 REST_FRAMEWORK = {
 	'DEFAULT_AUTHENTICATION_CLASSES': (
